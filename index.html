@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa de Marta - Florería</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">La Casa de Marta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video -->
+    <div class="hero-section">
+        <video autoplay muted loop id="hero-video">
+            <source src="videos/video1.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Bienvenidos a La Casa de Marta</h1>
+            <p>Donde cada flor cuenta una historia</p>
+            <a href="catalogo.html" class="btn btn-primary btn-lg">Ver Catálogo</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/flores1.jpg" class="img-fluid rounded" alt="Nuestras flores">
+                </div>
+                <div class="col-md-6">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En La Casa de Marta, creamos arreglos florales únicos que transmiten emociones y belleza natural. Cada flor es seleccionada cuidadosamente para crear composiciones perfectas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Video Section -->
+    <section class="promo-video-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Descubre Nuestra Pasión</h2>
+            <div class="ratio ratio-16x9">
+                <iframe src="videos/promo-video.mp4" title="Promotional video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Locales</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/floreria1.jpg" class="card-img-top" alt="Local Centro">
+                        <div class="card-body">
+                            <h5 class="card-title">Local Centro</h5>
+                            <p class="card-text">Av. Principal 123</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/floreria2.jpg" class="card-img-top" alt="Local Norte">
+                        <div class="card-body">
+                            <h5 class="card-title">Local Norte</h5>
+                            <p class="card-text">Calle Flores 456</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/floreria3.jpg" class="card-img-top" alt="Local Sur">
+                        <div class="card-body">
+                            <h5 class="card-title">Local Sur</h5>
+                            <p class="card-text">Plaza Central 789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-form-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Realiza tu Pedido</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="order-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre completo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Detalles de tu pedido"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>La Casa de Marta</h5>
+                    <p>Tu florería de confianza desde 1995</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p>
+                        <i class="fas fa-phone"></i> +51 123 456 789<br>
+                        <i class="fas fa-envelope"></i> info@lacasademarta.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

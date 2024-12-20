@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - La Casa de Marta</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">La Casa de Marta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="catalog-banner">
+        <div class="banner-content">
+            <h1>Nuestro Catálogo</h1>
+            <p>Descubre nuestra colección de arreglos florales únicos</p>
+        </div>
+    </div>
+
+    <!-- Catalog Section -->
+    <section class="catalog-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Product Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="images/flores2.jpg" class="card-img-top" alt="Rosas Rojas">
+                        <div class="card-body">
+                            <h5 class="card-title">Ramo de Rosas Rojas</h5>
+                            <p class="card-text">12 rosas rojas con follaje decorativo</p>
+                            <p class="price">S/. 89.90</p>
+                            <button class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="images/flores5.jpg" class="card-img-top" alt="Lilies">
+                        <div class="card-body">
+                            <h5 class="card-title">Arreglo de Lilies</h5>
+                            <p class="card-text">Elegante arreglo de lilies blancas</p>
+                            <p class="price">S/. 99.90</p>
+                            <button class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="images/girasoles.jpg" class="card-img-top" alt="Girasoles">
+                        <div class="card-body">
+                            <h5 class="card-title">Girasoles Alegres</h5>
+                            <p class="card-text">Arreglo de girasoles frescos</p>
+                            <p class="price">S/. 79.90</p>
+                            <button class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Product Cards -->
+                <!-- Repeat structure for more products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>La Casa de Marta</h5>
+                    <p>Tu florería de confianza desde 1995</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p>
+                        <i class="fas fa-phone"></i> +51 123 456 789<br>
+                        <i class="fas fa-envelope"></i> info@lacasademarta.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
